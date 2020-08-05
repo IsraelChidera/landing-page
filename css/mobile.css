@@ -1,0 +1,193 @@
+nav ul {
+    display: none;
+}
+
+nav {
+    position: relative;
+}
+
+
+header nav {
+    position: static;
+}
+
+header .header-content {
+    display: block;
+} 
+
+
+header {
+    min-height: auto;
+    height: auto;
+}
+
+.header-content-img {
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.header-content-img img {
+    /* position: relative;
+    top: auto; */
+}
+
+header .header-content-details {
+    padding-top: 4rem;
+    padding-left: 1rem;
+    background-color: white;
+}
+
+.header-content-details h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #334;
+}
+
+.caps {
+    font-size: 3.3rem;
+    text-transform: uppercase;
+}
+
+.header-content-details p {
+    margin-top: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.about-us-details h1 {
+    font-size: 3.2rem;
+    padding: 1rem;
+}
+
+.about-us-details p {
+    font-size: 18px;
+}
+
+#about-us .about-us-details {
+    margin-top: 1rem;
+}
+
+#about-us .about-us-rows {
+    display: block;
+    margin: 1rem 1rem;
+}
+
+.row {
+    padding: 0rem; 
+    margin: 0rem;
+    margin-top: 2rem;
+}
+
+/* what we do */
+#what-we-do {
+    display: block;
+}
+
+#what-we-do .what-we-do-details h1, #what-we-do .what-we-do-details h2 {
+    color: #334;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#what-we-do .what-we-do-details p {
+    margin-right: 0rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* what we do - 2 */
+#what-we-do-2 {
+    display: block;
+    position: relative;
+}
+
+#what-we-do-2 .what-we-do-img-2 {
+    padding-bottom: 20px;
+}
+
+#what-we-do-2 .what-we-do-details-2 {
+    padding: 0;
+    text-align: center;
+}
+
+#what-we-do-2 .what-we-do-details-2 p {
+    padding: 1rem;
+    margin-right: 0rem;
+    font-size: 18px;
+}
+
+/* about us */
+#about-us .about-us-flex {
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.about-us-flex .about-us-img {
+    padding-left: 0rem;
+    padding: 1rem;
+}
+
+.about-us-flex .about-us-flex-details {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.about-us-flex .about-us-flex-details h1 {
+    font-size: 2.2rem;
+}
+
+.about-us-flex .about-us-flex-details .about-flex-para {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* contact us */
+#contact-us div {
+    display: block;
+}
+
+#contact-us div form {
+    background-color: white;
+    padding: 1rem;
+    margin: 10px;
+}
+
+#contact-us div form textarea {
+    margin-top: 2rem;
+}
+
+#footer-details .container {
+    display: block;
+}
+
+#footer-details .footer-d {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+#footer-details .footer-d h1 {
+    color: #5e5a5a;
+}
+
+.footer-socials div {
+    font-size: 1.5em;
+}
+
+.footer-newsletter input{
+    margin: auto;
+}
+
+.container .footer-newsletter button {
+    margin: 1rem auto;
+    width: 40%;
+}
+
+footer {
+    font-size: 1rem;
+}
