@@ -63,7 +63,7 @@ nav div h1 {
 }
 
 .special {
-    color: #768A11;
+    color: #808080;
     font-weight: 700px;
 }
 
@@ -82,7 +82,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-   color: rgb(12, 241, 192);
+   color: rgb(116, 201, 201);
+}
+
+.hamburger {
+    display: none;
 }
 
 /* header content */
@@ -100,7 +104,7 @@ header .header-content {
 header .header-content-details{
     padding-top: 10rem;
     padding-left: 4rem;
-    background-color: rgb(12, 241, 192);
+    background-color: rgb(116, 201, 201);
 }
 
 .header-content-details h1 {
@@ -125,7 +129,7 @@ header .header-content-details{
     padding: 13px;
     font-weight: 600;
     font-size: 20px;
-    background:  #768A11 ;
+    background:  #768A11;
     color:  white;
     border-radius: 5px;
 }
@@ -133,7 +137,7 @@ header .header-content-details{
 
 .header-content-details a {
     color: whitesmoke;
-    background: #6f801a;
+    background: #585757;
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
@@ -667,4 +671,33 @@ footer {
     #footer-details .footer-d h1 {
         color: #5e5a5a;
     }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    nav ul.nav-menu {
+        display: flex;
+    }
+    
+    .hamburger {
+        display: block;
+        font-size: 18px;
+        border: none;
+        background: transparent;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    
+    .hamburger:focus {
+        outline: none;
+    } 
+    
+    header nav {
+        position: static;
+        flex-wrap: wrap;
+    }
+    
 }

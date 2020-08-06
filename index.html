@@ -10,33 +10,31 @@
     <title>Business Landing Page</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav>
             <div>
                 <h1><a href="#">D<span class="special">'</span> Light</a></h1>
             </div>
+
+            <button id="hamburger" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+
             <ul id="sideMenu">
-                <a href="#" class="btn-close" onclick="closeSideMenu">&times;</a>
                 <li>
-                    <a class="current" href="#">Home</a>
+                    <a class="current" href="#header">Home</a>
                 </li>
                 <li>
-                    <a href="#">What we offer</a>
+                    <a href="#about-us">What we offer</a>
                 </li>
                 <li>
-                    <a href="#">About us</a>
+                    <a href="#what-we-do">About us</a>
                 </li>
                 <li>
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact-us">Contact</a>
                 </li>
                 
             </ul>
-            <a href="#" class="btn-open" onclick="openSideMenu()">
-                <i class="fas fa-bars fa-2x"></i>
-            </a>
         </nav>
         <div class="header-content">
             <div class="header-content-details">
@@ -208,5 +206,7 @@
     <footer>
         <p>Copyright &copy;2020 All rights reserved. Israel Chidera</p>
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 </html>

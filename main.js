@@ -1,10 +1,9 @@
-function openSideMenu() {
-    document.querySelector('#sideMenu').style.width = '250px';
-    // document.getElementById('main').style.margin = '150px';
-}
+let hamburger = document.querySelector("#hamburger");
+let navLinks = document.querySelector("#sideMenu");
 
-function closeSideMenu() {
-    document.querySelector('#sideMenu').style.width = '0';
-    // document.getElementById('main').style.margin = 'auto';
-}
+hamburger.addEventListener("click", function(){
+    navLinks.classList.toggle("nav-menu");
+})
+
+
 
